@@ -1,7 +1,5 @@
 package models;
 
-import models.GroceryItem;
-
 import java.util.ArrayList;
 
 public class Purchases {
