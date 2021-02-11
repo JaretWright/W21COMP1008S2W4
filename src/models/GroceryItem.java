@@ -1,3 +1,5 @@
+package models;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -39,7 +41,7 @@ public class GroceryItem {
     }
 
     public void setCategory(String category) {
-        List<String> categories = Arrays.asList("meat","dairy","eggs","fruit","vegetables","herbs");
+        List<String> categories = Arrays.asList("meat","dairy","eggs","fruit","vegetables","herbs","bread");
         if (categories.contains(category.toLowerCase()))
             this.category = category;
         else
